@@ -1,0 +1,31 @@
+
+
+.footer
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75vw;
+  /* border: solid red 2px; */
+  margin: 10px;
+  background-color: rgb(37, 50, 54);
+  height: 100px;
+
+}
+
+.nav{
+  display: flex;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+
+.contact{
+  display: flex;
+  color: white;
+}
+.contact p{
+  margin: 0px 10px;
+}

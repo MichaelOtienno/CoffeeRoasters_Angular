@@ -1,0 +1,97 @@
+.container
+{
+  /* border: solid red 2px; */
+  width: 90vw;
+  margin: 5px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.impression{
+  background: url('../../assets/coffeet.jpeg');
+  width: 85vw;
+  height: 500px;
+  padding: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: left;
+}
+
+.message{
+  /* border:solid green 2px; */
+  width: 40vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding-left: 20px;
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+button{
+  padding: 20px;
+  color: white;
+  background-color: rgb(51, 106, 179);
+  width: 150px;
+  border-radius: 10px;
+  border: 0px ;
+}
+
+.collections{
+  width: 89vw;
+  /* border: solid blue 2px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  margin: 50px ;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  /* border: solid green 2px; */
+  width:75vw ;
+  margin-top:-50px ;
+  padding: 10px;
+
+}
+.images img{
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.allImages{
+  /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.allImages p {
+  font-size: 20px;
+  color: rgb(105, 103, 103);
+}
+
+.choose{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 50, 54);
+  height: 400px;
+  width: 75vw;
+  margin: 50px ;
+}
+
+

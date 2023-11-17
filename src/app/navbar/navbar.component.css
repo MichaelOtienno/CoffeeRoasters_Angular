@@ -1,0 +1,29 @@
+
+.navContainer{
+  /* border: solid red 2px; */
+  display: flex;
+  padding: 0px 15px;
+  justify-content: center;
+
+}
+
+
+.navbar{
+  height: 50px;
+  /* border: solid red 2px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  padding:0px 20px;
+}
+
+.navigation a{
+  margin: 0px 15px;
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+
+}
+
+
