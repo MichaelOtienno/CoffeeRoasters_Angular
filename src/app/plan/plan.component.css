@@ -1,0 +1,19 @@
+
+.container{
+  height: 70vh;
+  width: 88vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 20px;
+}
+
+
+.plan{
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+}
+.plan h1{
+  font-size: 100px;
+}

@@ -2,7 +2,7 @@
 {
   /* border: solid red 2px; */
   width: 90vw;
-  margin: 5px 80px;
+  margin: 5px 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,7 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: left;
+  border-radius: 10px;
 }
 
 .message{
@@ -40,12 +41,23 @@
 button{
   padding: 20px;
   color: white;
-  background-color: rgb(51, 106, 179);
-  width: 150px;
+  background-color: rgb(28, 97, 97);
+  width: 200px;
   border-radius: 10px;
   border: 0px ;
+  font-size: medium;
 }
 
+.ourCollection{
+  width: 75vw;
+  justify-content: space-between;
+  display: flex;
+  font-size: 100px;
+  color: rgb(185, 180, 180);
+  margin-bottom: -20px;
+    /* border: solid blue 2px; */
+
+}
 .collections{
   width: 89vw;
   /* border: solid blue 2px; */
@@ -67,7 +79,7 @@ button{
 
 }
 .images img{
-  width: 200px;
+  width: 150px;
   margin-bottom: 30px;
 }
 
@@ -89,9 +101,111 @@ button{
   align-items: center;
   justify-content: center;
   background-color: rgb(37, 50, 54);
-  height: 400px;
+  height: 700px;
   width: 75vw;
   margin: 50px ;
+  border-radius: 10px;
 }
 
+.whyImages{
+  display: flex;
+  justify-content: space-around;
+  /* border: solid green 2px; */
+  width:75vw ;
+  margin-top:-50px ;
+  padding: 10px;
 
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+  /* border: solid green 2px; */
+  width:75vw ;
+  margin-top:-50px ;
+  padding: 10px;
+
+}
+.whyImages img{
+  width: 80px;
+  margin-bottom: 30px;
+}
+.whyAllImages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: -200px;
+  background-color: rgb(28, 97, 97);
+  color: white;
+  padding: 20px;
+  height:350px ;
+  border-radius: 10px;
+
+}
+
+.whyAllImages p {
+  font-size: 20px;
+
+}
+
+.howWorks{
+  /* border: solid red 2px; */
+  height: 650px;
+  width: 75vw;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content:start;
+  flex-direction: column;
+}
+
+.shapes{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 70px 0px;
+  width: 50vw;
+  /* border: solid blue 2px; */
+}
+.shapes p {
+  border-bottom: solid orange 2px;
+  width: 30vw;
+
+}
+.circle{
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid blue 2px;
+}
+
+.numbers{
+  font-size: 50px;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:55vw ;
+}
+
+.procedure{
+  display: flex;
+  width: 65vw;
+  /* border: solid blue 2px; */
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  margin: 20px 0px;
+
+}
+
+.procedure h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.procedure p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}

@@ -9,7 +9,7 @@
 
 
 .navbar{
-  height: 50px;
+  height: 80px;
   /* border: solid red 2px; */
   display: flex;
   justify-content: space-between;

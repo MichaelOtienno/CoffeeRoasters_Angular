@@ -1,5 +1,10 @@
 
-
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* border: solid red 2px; */
+}
 .footer
 {
   display: flex;
